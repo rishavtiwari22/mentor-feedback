@@ -67,7 +67,7 @@ const MentorReportForm = () => {
       
     
       // Send data to Google Sheets
-      const sheetResponse = await fetch('https://script.google.com/macros/s/AKfycbxffvehs538MFcC6PlnJ9uHOn9L4b3QNxDzH2J5RIpRCdO4M_j8XTEP3N4VQqnXyJCA/exec', {
+      const sheetResponse = await fetch('https://script.google.com/macros/s/AKfycbx59O77Qy5sxX1oCGiTud25uqYeMNHLYlBOQb075AXnsBoHkjyIuY6f1AH60gzLXbLx/exec', {
         method: 'POST',
         mode: 'no-cors',
         headers: {
