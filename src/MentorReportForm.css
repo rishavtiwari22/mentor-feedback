@@ -135,4 +135,7 @@ button:hover {
   .form-group {
     flex: 1 1 100%; /* Full width on small screens */
   }
+  .form-container{
+    width:90%;
+  }
 }
