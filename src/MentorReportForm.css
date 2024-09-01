@@ -93,11 +93,12 @@ textarea:focus {
 
 
 button {
-  background-color: green;
-  color: black;
+  background-color: white;
+  color: green;
   border: none;
   padding: 12px 0px 0px 20px;
   border-radius: 6px;
+  border-color: #66FF99;
   cursor: pointer;
   font-size: 16px;
   font-family: 'Montserrat', Arial, sans-serif;
@@ -119,7 +120,8 @@ button {
 
 
 button:hover {
-  background-color: green; /* Darker blue on hover */
+  background-color: #66FF99;
+  color: black;
 }
 
 .error {
